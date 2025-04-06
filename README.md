@@ -1,7 +1,7 @@
 # formi
 Backend API for Retrieval of Locations within 50Km radius Using FastAPI
 
-# Report
+# Output
 Output of the API when queried on "Udaipur"
 ![Output of the API when queried on "Udaipur"](Correct%20Udaipur.png)
 
