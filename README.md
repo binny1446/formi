@@ -5,7 +5,7 @@ Backend API for Retrieval of Locations within 50Km radius Using FastAPI
   ''' 
     1. What was your initial thought process when you first read the problem statement, and how did you break it down into smaller, manageable parts?
     
-    When I first encountered the problem, I immediately recognized that the core functionality required was geospatial—specifically, taking a user-provided location (which may not always be clean or accurate) and returning nearby predefined points of interest within a certain distance. However, the real challenge wasn’t just in calculating distances—it was in handling human error in the input: typos, alternative spellings, or even vague place names. So my primary objective became building a resilient and intelligent location-query system that gracefully handles inaccuracies and provides relevant suggestions or results.
+    When I first encountered the problem, I immediately recognized that the core functionality required was geospatial—specifically, taking a user-provided location (which may not always be clean or accurate) and returning nearby predefined points of interest within a certain distance. However, the real challenge wasn’t just in calculating distances—it was in handling human error in the input: typos, alternative spellings, or even vague place names. 
     
     To tackle the problem systematically, I decomposed it into several clear, interdependent components:
     
