@@ -36,15 +36,14 @@ The API will be available at http://127.0.0.1:8000
 ### Find Nearby Locations
 
 ```
-GET /nearby-locations?query={location_name}
+writing this command on Terminal
+curl -X GET "http://127.0.0.1:8000/nearby-locations?query=Location" -H "accept: application/json"
+
+or on Powershell
+curl.exe -X GET "http://127.0.0.1:8000/nearby-locations?query=Location" -H "accept: application/json"
 ```
 
 Returns all locations within 50km radius of the query location.
-
-#### Example Request:
-```
-GET /nearby-locations?query=Jaipur
-```
 
 #### Example Response:
 ```json
