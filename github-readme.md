@@ -2,33 +2,23 @@
 
 A FastAPI application that calculates distances between locations in India and finds nearby locations within a 50km radius.
 
-## Prerequisites
-
-- Python 3.8+
-- Google Gemini API key
-
 ## Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/location-distance-api.git
-   cd location-distance-api
+   git clone https://github.com/binny1446/formi.git
+   cd formi
    ```
 
 2. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   # On Windows: venv\Scripts\activate
    ```
 
 3. Install required dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-
-4. Create a `.env` file in the project root and add your Gemini API key:
-   ```
-   GEMINI_API_KEY=your_api_key_here
    ```
 
 ## Running the Application
@@ -73,14 +63,6 @@ GET /nearby-locations?query=Jaipur
   ]
 }
 ```
-
-### List All Locations
-
-```
-GET /list-locations
-```
-
-Returns all predefined locations in the database.
 
 ## Environment Variables
 
