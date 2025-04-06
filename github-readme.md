@@ -2,14 +2,6 @@
 
 A FastAPI application that calculates distances between locations in India and finds nearby locations within a 50km radius.
 
-## Features
-
-- Find nearby locations within 50km of a query location
-- Intelligent location name correction using Google's Gemini AI
-- Fallback to fuzzy matching for location names
-- Geocoding capabilities using GeoPy
-- Pre-defined database of popular Indian locations
-
 ## Prerequisites
 
 - Python 3.8+
