@@ -96,10 +96,3 @@ The application uses the following environment variables:
 
 - `GEMINI_API_KEY`: API key for Google's Gemini AI
 
-## Deployment
-
-This application can be deployed to platforms like Heroku, Google Cloud Run, or AWS Lambda. Make sure to set the environment variables properly in your deployment environment.
-
-## License
-
-[MIT](LICENSE)
