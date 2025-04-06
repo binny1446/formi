@@ -9,4 +9,4 @@ Output of the API when queried on Wrong Spelling of "Udaipur", It shows that our
 ![Output of the API when queried on Wrong Spelling of "Udaipur", It shows that our Program is Robust to Spelling errors](Incorrect%20Udaipur.png)
 
 To run API read this "github-readme.md" file
-[API Execution workflow](github-readme.md.md)
+[API Execution workflow](github-readme.md)
